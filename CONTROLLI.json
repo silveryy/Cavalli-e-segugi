@@ -1,5 +1,5 @@
 {
-  "version": "4.4",
+  "version": "4.5",
   "source": "cavalli_e_segugi_v2_3_tre_stagioni_complete.zip",
   "total_rounds": 114,
   "total_matches": 1140,
@@ -147,5 +147,10 @@
     "triple_text": "HAT-TRICK!"
   },
   "user_logo": "assets/logo_cavalli_e_segugi.jpeg",
-  "logo_path": "logo_cavalli_e_segugi.jpeg"
+  "logo_path": "logo_cavalli_e_segugi.jpeg",
+  "github_pages_fix": true,
+  "logo_paths": [
+    "assets/logo_cavalli_e_segugi.jpeg",
+    "logo_cavalli_e_segugi.jpeg"
+  ]
 }

@@ -90,3 +90,10 @@ Aggiornamento 4.3:
 Aggiornamento 4.4:
 - Logo caricato dalla cartella principale: logo_cavalli_e_segugi.jpeg.
 - Compatibile con la struttura attuale caricata su GitHub Pages.
+
+
+Aggiornamento 4.5:
+- Ricostruito index.html completo e valido per GitHub Pages.
+- Logo caricato da ./assets/logo_cavalli_e_segugi.jpeg?v=45.
+- Aggiunta copia del logo anche nella root per sicurezza.
+- Aggiunto .nojekyll.

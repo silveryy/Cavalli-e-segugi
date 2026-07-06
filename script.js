@@ -1,4 +1,4 @@
-const $=id=>document.getElementById(id);let data=null,teamAssets={},allRounds=[],player="",selectedRound=null,matchIndex=0,score=0,resultAttempts=3,scorerAttempts=3,remainingScorers=[],stats=null;const APP_VERSION="4.4";const SAVE_KEY="cavalliSegugiSaveV44",LEADERBOARD_KEY="cavalliSegugiLeaderboardV3";const compoundSurnames=["de bruyne","de ketelaere","loftus cheek","yoan bonny","da cunha","di lorenzo","norton cuffy","de winter","el shaarawy","del prato","de silvestri"];function normalizeText(value){
+const $=id=>document.getElementById(id);let data=null,teamAssets={},allRounds=[],player="",selectedRound=null,matchIndex=0,score=0,resultAttempts=3,scorerAttempts=3,remainingScorers=[],stats=null;const APP_VERSION="4.5";const SAVE_KEY="cavalliSegugiSaveV45",LEADERBOARD_KEY="cavalliSegugiLeaderboardV3";const compoundSurnames=["de bruyne","de ketelaere","loftus cheek","yoan bonny","da cunha","di lorenzo","norton cuffy","de winter","el shaarawy","del prato","de silvestri"];function normalizeText(value){
   const specialMap = {
     "ı":"i","İ":"i",
     "ø":"o","Ø":"o",
