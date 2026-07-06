@@ -1,0 +1,150 @@
+{
+  "version": "4.3",
+  "source": "cavalli_e_segugi_v2_3_tre_stagioni_complete.zip",
+  "total_rounds": 114,
+  "total_matches": 1140,
+  "teams_count": 25,
+  "fixes": [
+    "Bàez/Báez/Baez normalizzati come baez",
+    "Mapping esplicito per vocali accentate, ç e ñ"
+  ],
+  "official_logos_added": [
+    "AC Monza",
+    "ACF Fiorentina",
+    "AS Roma",
+    "Atalanta",
+    "Cagliari Calcio",
+    "Como 1907",
+    "Empoli FC",
+    "Frosinone Calcio",
+    "Genoa CFC",
+    "Inter",
+    "Juventus FC",
+    "Parma Calcio",
+    "Pisa Sporting Club",
+    "SS Lazio",
+    "SSC Napoli",
+    "Torino FC",
+    "US Cremonese",
+    "US Lecce",
+    "US Salernitana",
+    "US Sassuolo"
+  ],
+  "official_logos_count": 25,
+  "official_logos_added_latest": [
+    "AC Milan",
+    "Bologna FC",
+    "Hellas Verona",
+    "Udinese Calcio",
+    "Venezia FC"
+  ],
+  "teams_without_logo": [],
+  "logo_fix": "embedded_data_uri",
+  "embedded_logos_count": 25,
+  "missing_logo_embeddings": [],
+  "fix": "invalidazione_salvataggi_vecchi_e_controllo_marcatori_trasferta",
+  "2023_24_bad_goal_counts_count": 0,
+  "2023_24_suspicious_count": 0,
+  "2023_24_matches_with_away_goals": 255,
+  "sample_checks": {
+    "2023_24_round1_frosinone_napoli": {
+      "home": "Frosinone Calcio",
+      "away": "SSC Napoli",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "scorers": [
+        {
+          "name": "Abdou Harroui"
+        },
+        {
+          "name": "Matteo Politano"
+        },
+        {
+          "name": "Victor Osimhen"
+        },
+        {
+          "name": "Victor Osimhen"
+        }
+      ]
+    },
+    "2023_24_round5_sassuolo_juventus": {
+      "home": "US Sassuolo",
+      "away": "Juventus FC",
+      "score": {
+        "home": 4,
+        "away": 2
+      },
+      "scorers": [
+        {
+          "name": "Armand Laurienté"
+        },
+        {
+          "name": "Matías Viña",
+          "ownGoal": true
+        },
+        {
+          "name": "Domenico Berardi"
+        },
+        {
+          "name": "Federico Chiesa"
+        },
+        {
+          "name": "Andrea Pinamonti"
+        },
+        {
+          "name": "Federico Gatti",
+          "ownGoal": true
+        }
+      ]
+    },
+    "2023_24_round6_juventus_lecce": {
+      "home": "Juventus FC",
+      "away": "US Lecce",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "scorers": [
+        {
+          "name": "Arkadiusz Milik"
+        }
+      ]
+    },
+    "2023_24_lecce_genoa": {
+      "home": "US Lecce",
+      "away": "Genoa CFC",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "scorers": [
+        {
+          "name": "Rémi Oudin"
+        }
+      ]
+    }
+  },
+  "letter_normalization_updates": [
+    "Ç/ç normalizzata come c",
+    "Ğ/ğ normalizzata come g",
+    "Calhanoglu accettato per Çalhanoğlu"
+  ],
+  "animations": {
+    "scorer_guess": true,
+    "single_or_own_goal": "GOOOOLLL!!",
+    "double": "DOPPIETTA!!!!",
+    "triple": "HAT-TRICK!",
+    "wrong": "NOOOO, CHE ERRORE!"
+  },
+  "animation_update": {
+    "correct": "ball enters net and net bulges",
+    "wrong": "no overlay animation, only red feedback text",
+    "wrong_text": "NOOOO, CHE ERRORE!",
+    "single_text": "E C'È IL GRAN GOL!",
+    "double_text": "DOPPIETTA!!!!",
+    "triple_text": "HAT-TRICK!"
+  },
+  "user_logo": "assets/logo_cavalli_e_segugi.jpeg"
+}
