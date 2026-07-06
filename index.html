@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Cavalli e Segugi 3.0</title><link rel="stylesheet" href="style.css"/></head><body><div class="stadium-glow glow-a"></div><div class="stadium-glow glow-b"></div><div class="pitch-lines"></div><main class="app"><section id="home" class="screen hero-card"><div class="badge">Versione 3.0 · Tre stagioni Serie A</div><img src="logo_cavalli_e_segugi.jpeg" alt="Cavalli e Segugi" class="main-logo"><p class="subtitle">Indovina risultati e marcatori. Ora con stemmi stilizzati, card partita e grafica da gioco.</p><div class="form-row"><input id="playerName" type="text" placeholder="Inserisci il tuo nome" autocomplete="off"/><button id="playBtn">Gioca</button></div><div class="home-actions"><button id="continueBtn" class="secondary hidden">Continua partita salvata</button><button id="leaderboardBtn" class="ghost">Classifica</button></div><div class="rules"><div><strong>+50</strong><span>Risultato esatto</span></div><div><strong>+25</strong><span>Parziale solo al 3º tentativo</span></div><div><strong>+20</strong><span>Ogni gol indovinato</span></div></div></section><section id="game" class="screen hidden"><header class="game-header glass"><div><p class="eyebrow">Giocatore</p><h2 id="playerLabel"></h2><p id="roundLabel"></p></div><div class="score-card"><span>Punti</span><strong id="scoreLabel">0</strong></div></header><div class="progress-wrap glass"><div class="progress-meta"><span id="progressText"></span><span id="statsMini"></span></div><div class="progress-bar"><div id="progressFill"></div></div></div><section id="matchArea" class="match-card"></section><section id="feedback" aria-live="polite"></section></section><section id="final" class="screen hidden final-card"><div class="trophy">🏆</div><h2>Giornata completata</h2><p id="finalText"></p><div id="finalStats" class="stats-grid"></div><div class="final-actions"><button id="restartBtn">Nuova partita</button><button id="showLeaderboardFinalBtn" class="secondary">Vedi classifica</button></div></section><section id="leaderboard" class="screen hidden final-card"><h2>Classifica locale</h2><p class="subtitle">Salvata solo su questo browser.</p><div id="leaderboardList"></div><div class="final-actions"><button id="backHomeBtn">Torna alla home</button><button id="clearLeaderboardBtn" class="danger">Cancella classifica</button></div></section></main>
+  <div id="shotOverlay" class="shot-overlay hidden" aria-live="polite">
+    <div class="simple-shot-scene">
+      <button class="shot-close" type="button" aria-label="Chiudi animazione">×</button>
+      <div class="simple-goal">
+        <div class="simple-net"></div>
+        <div class="simple-keeper"></div>
+        <div class="simple-ball"></div>
+      </div>
+      <div class="simple-shot-text" id="shotText">E C'È IL GRAN GOL!</div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script></body></html>

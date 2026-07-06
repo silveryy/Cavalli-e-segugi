@@ -1,0 +1,53 @@
+{
+  "rounds": 38,
+  "matches": 380,
+  "bad_goal_counts_count": 0,
+  "bad_goal_counts": [],
+  "suspicious_count": 0,
+  "suspicious": [],
+  "examples": {
+    "sassuolo_juve": {
+      "home": "US Sassuolo",
+      "away": "Juventus FC",
+      "score": {
+        "home": 4,
+        "away": 2
+      },
+      "scorers": [
+        {
+          "name": "Armand Laurienté"
+        },
+        {
+          "name": "Matías Viña",
+          "ownGoal": true
+        },
+        {
+          "name": "Domenico Berardi"
+        },
+        {
+          "name": "Federico Chiesa"
+        },
+        {
+          "name": "Andrea Pinamonti"
+        },
+        {
+          "name": "Federico Gatti",
+          "ownGoal": true
+        }
+      ]
+    },
+    "juve_lecce": {
+      "home": "Juventus FC",
+      "away": "US Lecce",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "scorers": [
+        {
+          "name": "Arkadiusz Milik"
+        }
+      ]
+    }
+  }
+}
